@@ -1,0 +1,72 @@
+<ui version="4.0">
+ <class>oneOrder</class>
+ <widget class="QWidget" name="oneOrder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Order Details</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #f5f5f5; /* 设置背景颜色 */
+    }
+    QTextBrowser {
+        border: 1px solid #ccc; /* 设置边框 */
+        border-radius: 5px; /* 设置圆角 */
+        padding: 5px; /* 设置内边距 */
+    }
+    QPushButton {
+        background-color: #4CAF50; /* 设置按钮背景颜色 */
+        color: white; /* 设置按钮文字颜色 */
+        border: none; /* 去掉边框 */
+        border-radius: 5px; /* 设置圆角 */
+        padding: 5px; /* 设置内边距 */
+    }
+   </string>
+  </property>
+  <widget class="QTextBrowser" name="showorder">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>251</width>
+     <height>241</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="complete">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>140</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Finish</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

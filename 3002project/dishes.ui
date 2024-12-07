@@ -1,0 +1,106 @@
+<ui version="4.0">
+ <class>dishes</class>
+ <widget class="QWidget" name="dishes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width> <!-- 增加宽度 -->
+    <height>180</height> <!-- 增加高度 -->
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #f0f0f0; /* 设置背景颜色 */
+    }
+    QTextBrowser {
+        border: 1px solid #ccc; /* 设置边框 */
+        border-radius: 5px; /* 设置圆角 */
+        padding: 5px; /* 设置内边距 */
+    }
+    QSpinBox {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+   </string>
+  </property>
+  <widget class="QGraphicsView" name="dishes_photo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QGraphicsView {
+         border: 1px solid #ccc;
+         border-radius: 5px;
+     }
+    </string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="name">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize> <!-- 增大字体 -->
+     <bold>true</bold> <!-- 加粗字体 -->
+    </font>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="price">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize> <!-- 增大字体 -->
+     <italic>true</italic>
+    </font>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="introduction">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize> <!-- 增大字体 -->
+    </font>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="quantity">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>50</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
